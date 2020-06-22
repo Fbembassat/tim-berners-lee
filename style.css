@@ -1,0 +1,145 @@
+body{
+    background-color: #ececec;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 100px auto 100px;
+    grid-template-rows: auto;
+    grid-template-areas: "header header header"
+                         "main main main"
+                         "footer footer footer";
+    row-gap: 25px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.biographie{
+    background-color: white;
+    grid-area: header;
+    margin-left: 450px;
+    margin-right: 450px;
+    box-shadow: 0 0 5px #7e7f81;
+
+}
+
+.biographie h1{
+    text-align: center;
+    color: #de5a5f;
+}
+
+.biographie h2{
+    text-align: center;
+    color: #7e7f81;
+    font-weight: lighter;
+}
+
+.biographie p{
+    text-align: justify;
+    line-height: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #7e7f81;
+}
+
+.biographie span{
+    font-weight: bolder;
+}
+
+.biographie button {
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: auto;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: #de5a5f;
+  }
+
+.biographie img{
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    width : 150px;
+    height : 150px;
+    border: 4px solid #ececec;
+    -moz-border-radius : 75px;
+    -webkit-border-radius : 75px;
+    border-radius : 75px;
+}
+
+.reseaux{
+    grid-area: main;
+    background-color: white;
+    margin-left: 450px;
+    margin-right: 450px;
+    box-shadow: 0 0 5px #7e7f81;
+}
+
+.reseaux ul{
+    text-align: center;
+    width: 85%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.reseaux ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 40px;
+    font-family: f;
+}
+
+.reseaux ul li a{
+    text-decoration: none;
+    color: #cdcdcd;
+}
+
+.fa{
+    color: #cdcdcd;
+}
+
+.movies{
+    grid-area: footer;
+    background-color: white;
+    margin-left: 450px;
+    margin-right: 450px;
+    box-shadow: 0 0 5px #7e7f81;
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+.movies h2{
+    text-align: center;
+    margin-top: 30px;
+    color: #7e7f81;
+    font-weight: lighter;
+}
+
+.movies h3{
+    text-align: center;
+    color: #7e7f81;
+    font-weight: lighter;
+}
+
+.movies p{
+    text-align: justify;
+    margin-left: 15px;
+    margin-right: 15px;
+    line-height: 30px;
+    color: #7e7f81;
+}
+
+.movies img{
+    width: 85%;
+    height: 85%;
+    margin-left: 20px;
+}
+
+.movies span{
+    background-color: #d5d5d5;
+}
