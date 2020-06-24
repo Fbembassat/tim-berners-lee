@@ -104,6 +104,12 @@ body{
     color: #cdcdcd;
 }
 
+.reseaux i{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .movies{
     grid-area: footer;
     background-color: white;
